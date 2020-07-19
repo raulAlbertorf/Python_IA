@@ -1,0 +1,1 @@
+yarn jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar -D mapred.output.key.comparator.class=org.apache.hadoop.mapred.lib.KeyFieldBasedComparator -D mapred.text.key.comparator.options=-n -files conteo_mapper.py,conteo_reducer.py -mapper conteo_mapper.py -reducer conteo_reducer.py -input /example/data/romeo_y_julieta.txt -output /example/wordlengthsoutput    

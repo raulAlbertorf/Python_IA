@@ -1,0 +1,3 @@
+speech_to_text_key = 'qQ-bpVU0xU5NHUM9q3ZnvC6M1Bk5MtQf9h7H6g2c787S'
+text_to_speech_key = '4-PzxmMiS__oGR8H2BQbQ3Co8yWHSllOzW6i840cHWWt'
+translate_key = 'VoAZIpV7mXc9KccjIZQaVlwXll7i0X0JUOdDFXEoTZB2'

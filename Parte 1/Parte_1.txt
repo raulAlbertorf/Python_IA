@@ -1,0 +1,103 @@
+MIERCOLES 22/04/2020
+Aplicaciones moviles no es la mejor opcion python
+Kotlin en Android Studio
+Swift - IOS
+Para generar daos con python es lento
+Python es interpretado
+No genera código maquina luego luego
+
+Características:
+Mas flexibles
+Tipado dinamico
+Es orientado a objetos
+Mas ocupado en programación de ciencia de datos.
+
+Termininología:
+Modulo  - funciones / variables
+Paquete -  conjunto de Modulos
+
+Anotaciones del curso
+sqlite3 - paqueteria para base de datos.
+deap learning - Qué es?
+	Gran cantidad de datos.
+	Hardware capaz de entrenar algoritmos de deap learning / AI.
+
+Keras : Framework permite trabajar algoritmos de maching learning
+ 
+ANACONDA :  Permite definir aplicaciones de ciencia de datos y aprendizaje automatico
+			Administrador de ambientes - Diferentes versiones de python / paquetes / para poder trabajar de forma independiente.
+			Administrador de paquetes - Tiene repositorio de paquetes (7,500 paquetes aprox)
+Anaconda (Mas pesado / incluye paquetes mas pesados) -> Miniconda (Python y paquetes base)-> Conda			
+
+Jupyter: proyecto de codigo abierto orientado a aplicaciones de ciencia de datos.
+		Soporta diferentes lenguajes de programación entre ellos: Julya, Python, R
+		Ventajas: Trabajar con notebook
+		
+conda deactivate - para desactivar el ambiente de trabajo actual
+jupyter notebook - levantar servidor 
+
+""" DOCUMENTACION DE PYTHON EN CODIGO """
+
+__init__.py es como python sabe que se trata de un paquete
+
+zen de python - import this
+
+Huevos de pascua - cosas escondidas en juegos o cosas (ZEN DE PYTHON)
+PEP - documento de diseño que proporciona información a la comunidad python.	
+Operadores aritmeticos
++ ssuma	
+- resta
+- negación
+* multiplicación
+** exponente
+/division
+// division entera
+% modulo
+
+if condicion :
+	Bloque de instrucciones
+	
+pip install -r requirements.txt (Instalaz todas las dependencias necesarias para trabajar definidas en txt)
+
+Virtualenv es paquete para crear diferentes ambientes de trabajo (Similar a ANACONDA)
+
+OTROS:
+R - Lenjuage de programación para trabajar ciencia de datos.
+
+Tipos de datos
+Secuencias: 
+Tuplas - El tamaño de las tuplas es fijo, son inmutables, son mas rapidas y seguras -> ()
+Listas - Cualquier tipo de datos (Enteros,Flotante, Listas) -> []
+
+Enumerate - ID, Valor
+Metodo id te regresa una posición.
+
+
+Diccionaro - MAtriz asociativa (Atributo - Valor)
+
+
+
+Numpy [Numpay] - librería para inteligencia artificial. (Numerica Python). 
+Permite crear matrices de n x n.
+import numpy as np
+
+	
+Bibliotecas que dependen de NumPy: Pandas, SciPy, Keras
+Sitio web de interes: bibliotecas.io
+
+
+Redes neuronales convulucionales
+
+
+
+PATH Python
+
+(actumlogos-cpu) C:\WINDOWS\system32>python
+Python 3.6.10 |Anaconda, Inc.| (default, Mar 23 2020, 17:58:33) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import sys
+>>> sys.path
+['', 'D:\\Mis_Cosas\\Mis_Programas\\Miniconda\\miniconda3\\envs\\actumlogos-cpu\\python36.zip', 'D:\\Mis_Cosas\\Mis_Programas\\Miniconda\\miniconda3\\envs\\actumlogos-cpu\\DLLs', 'D:\\Mis_Cosas\\Mis_Programas\\Miniconda\\miniconda3\\envs\\actumlogos-cpu\\lib', 'D:\\Mis_Cosas\\Mis_Programas\\Miniconda\\miniconda3\\envs\\actumlogos-cpu', 'D:\\Mis_Cosas\\Mis_Programas\\Miniconda\\miniconda3\\envs\\actumlogos-cpu\\lib\\site-packages', 'D:\\Mis_Cosas\\Mis_Programas\\Miniconda\\miniconda3\\envs\\actumlogos-cpu\\lib\\site-packages\\win32', 'D:\\Mis_Cosas\\Mis_Programas\\Miniconda\\miniconda3\\envs\\actumlogos-cpu\\lib\\site-packages\\win32\\lib', 'D:\\Mis_Cosas\\Mis_Programas\\Miniconda\\miniconda3\\envs\\actumlogos-cpu\\lib\\site-packages\\Pythonwin']
+>>>
+
+

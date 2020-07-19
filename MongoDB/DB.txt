@@ -1,0 +1,24 @@
+Node.js
+mongodb+srv://actumlogos-cpu:8pi3h8un4o9liUxd@actumlogos-cpu-lbgoe.mongodb.net/actumlogos-cpu?retryWrites=true&w=majority
+
+
+Python
+mongodb+srv://actumlogos-cpu:8pi3h8un4o9liUxd@actumlogos-cpu-lbgoe.mongodb.net/Actumlogos-cpu?retryWrites=true&w=majority
+
+scp conteo_mapper.py conteo_reducer.py romeo_y_julieta.txt sshuser@Actumlogos-cpu-ssh.azurehdinsight.net:
+
+
+ssh sshuser@Actumlogos-cpu-ssh.azurehdinsight.net
+
+
+yarn jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar -D mapred.output.key.comparator.class=org.apache.hadoop.mapred.lib.KeyFieldBasedComparator -D mapred.text.key.comparator.options=-n -files conteo_mapper.py,conteo_reducer.py -mapper conteo_mapper.py -reducer conteo_reducer.py -input /example/data/romeo_y_julieta.txt -output /example/wordlengthsoutput
+
+hdfs dfs -text /example/wordlengthsoutput/part-00000
+
+docker run -p 8888:8888 -p 4040:4040 -it --user root jupyter/pyspark-notebook:14fdfbf9cfc1 start.sh jupyter lab
+
+ http://(a5bb25ea2586 or 127.0.0.1):8888/?token=adbbc4f7c4c61fa50b7db9c40b3b77ad5b23a579d0c4be96
+ 
+http://a5bb25ea2586:8888/?token=adbbc4f7c4c61fa50b7db9c40b3b77ad5b23a579d0c4be96
+
+docker run -p 8889:8889 -p 4040:4040 -it --user root jupyter/pyspark-notebook:14fdfbf9cfc1 start.sh jupyter lab
